@@ -38,7 +38,11 @@ train_dataset, test_dataset = dataset['train'], dataset['test']
 class_names = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat',
                'Sandal',      'Shirt',   'Sneaker',  'Bag',   'Ankle boot']
 
-# skipping explore...
+# define train and test sets, print confirmation
+num_train_examples = metadata.splits['train'].num_examples
+num_test_examples = metadata.splits['test'].num_examples
+print("Number of training examples: {}".format(num_train_examples))
+print("Number of test examples:     {}".format(num_test_examples))
 
 # normalize
 def normalize(images, labels):
