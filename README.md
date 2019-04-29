@@ -1,3 +1,3 @@
 # Learning Machine Learning
 
-Here I am assembling my own codebace for learning ML concepts.
+This is how we learn TensorFlow, well Keras actually.
